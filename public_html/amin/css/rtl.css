@@ -1,0 +1,144 @@
+html {
+    direction: rtl;
+}
+
+.info-bar-content ul.social {
+    margin-left: 50px;
+}
+
+.rounded-button>i {
+    margin-right: 15px;
+    transform: rotate(180deg);
+}
+
+.services ul.cards>li .readmore>i {
+    transform: rotate(180deg);
+}
+
+.events-content div.event-book>i {
+    transform: rotate(180deg);
+}
+
+.info-bar-content ul.social {
+    margin-left: 50px;
+}
+
+.info-bar-content ul.social::after {
+    left: -20px;
+}
+
+.nav-bar .nav-bar-menu>ul>li>a {
+    padding-left: 10px;
+}
+
+.nav-bar .nav-bar-menu>ul>li:not(:last-child)>a::before {
+    left: -5px;
+}
+
+.nav-bar .dropdown li:hover a {
+    padding-right: 15px;
+}
+
+.nav-bar .nav-bar-icons>ul>li:last-child {
+    margin-right: 30px;
+}
+
+.header .header-image .front-img img:nth-child(1) {
+    right: 80px;
+}
+
+.header .header-image .front-img img:nth-child(2) {
+    left: 40px;
+}
+
+.header .header-image .front-img img:nth-child(3) {
+    left: -20px;
+}
+
+.services ul.cards>li {
+    margin-left: 35px;
+}
+
+.services ul.cards>li:last-child {
+    margin-left: 0;
+}
+
+.self-dev .self-dev-content .self-dev-subs>input {
+    padding-right: 50px;
+}
+
+.self-dev .self-dev-content .self-dev-subs>i {
+    right: 15px;
+}
+
+.courses .courses-content ul.cards>li>.card-content>.card-icons>i:nth-child(1) {
+    margin-right: 0;
+}
+
+.courses .courses-content ul.cards>li>.card-content>.card-icons>i {
+    margin-right: 8px;
+}
+
+.skill .skill-content .call-info>i.rounded-logo {
+    margin-right: 0;
+}
+
+.skill .skill-content .skill-image .skill-card {
+    right: -210px;
+}
+
+.skill .skill-content .skill-image .skill-card .card-content {
+    margin-right: 40px;
+}
+
+.skill .skill-content .skill-image .skill-card .card-content .rounded-logo {
+    margin-left: 10px;
+}
+
+.skill .skill-content .skill-image .skill-card .card-content .skill-item .skill-title {
+    margin-left: 20px;
+}
+
+.events-content .events-desc>span::after {
+    right: 0;
+}
+
+.events-content .events-desc .events-box .event-title-location {
+    padding-right: 20px;
+}
+
+.events-content .events-desc .events-box .event-title-location>div>i {
+    margin-left: 10px;
+}
+
+.events-content div.event-book>span {
+    margin-left: 10px;
+}
+
+.news-content>ul.cards>li {
+    margin-left: 20px;
+}
+
+.news-content>ul.cards>li:last-child {
+    margin-left: 0;
+}
+
+.news-content>ul.cards div.card-content .card-info i {
+    margin-left: 6px;
+}
+
+.subscribe-content .subscribe-form>input {
+    padding-right: 10px
+}
+
+.footer ul.columns>li:nth-child(4)>ul.newsletter-form>li:first-child>i {
+    right: 20px;
+}
+
+.footer ul.columns>li:nth-child(4)>ul.newsletter-form input {
+    padding: 20px 60px 20px 0;
+}
+
+.subscribe-content .subscribe-form::after {
+    right: 0;
+}

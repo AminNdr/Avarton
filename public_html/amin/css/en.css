@@ -1,0 +1,44 @@
+@font-face {
+    font-family: fira;
+    src: url('../fonts/Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url(../fonts/Khula-font/Khula-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-font/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: gilroy;
+}
+
+p {
+    font-family: roboto;
+}
+
+.nav-bar .nav-bar-content .nav-bar-menu {
+    font-family: fira;
+}
+
+.header .header-desc strong {
+    font-family: fira;
+}
+
+.services ul.cards>li .readmore {
+    font-family: roboto;
+}
+
+.skill .skill-content .skill-desc>strong {
+    font-family: fira;
+}

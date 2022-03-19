@@ -1,0 +1,196 @@
+        @media only screen and (max-width: 780px) {
+            html {
+                font-size: 13px;
+                height: 100%;
+            }
+            .view-area {
+                width: 95%;
+            }
+            .rounded-logo {
+                padding: 22px;
+            }
+            /* info-bar */
+            .info-bar {
+                display: none;
+            }
+            /* nav-bar */
+            .nav-bar {
+                padding: 20px;
+            }
+            .nav-bar-menu {
+                display: none;
+            }
+            /* header */
+            .header-content {
+                flex-direction: column-reverse;
+            }
+            .header .header-content>* {
+                width: 100%;
+            }
+            .header .header-desc {
+                padding-left: 0;
+                margin-top: 20px;
+            }
+            .header .header-image .front-img {
+                display: none;
+            }
+            .header .header-desc>div {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+            .header .header-desc>div>* {
+                margin-bottom: 10px;
+            }
+            .header .header-desc p {
+                width: 95%;
+            }
+            /* services */
+            .services ul.cards {
+                flex-direction: column;
+            }
+            .services ul.cards>li {
+                margin-right: 0;
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
+            /* self-dev */
+            .self-dev .self-dev-content>div {
+                width: 100%;
+            }
+            .self-dev .self-dev-content {
+                flex-direction: column;
+                padding-bottom: 120px;
+            }
+            .self-dev .self-dev-content .self-dev-subs {
+                margin-bottom: 20px;
+            }
+            .self-dev .self-dev-content .self-dev-subs>input {
+                width: 48%;
+            }
+            /* courses */
+            .courses .courses-content ul.cards {
+                flex-direction: column;
+            }
+            .courses .courses-content ul.cards>li {
+                width: 100%;
+            }
+            /* skills */
+            .skill .skill-content {
+                flex-direction: column;
+            }
+            .skill .skill-content>* {
+                padding: 0;
+            }
+            .skill .skill-content .call-info~a {
+                display: block;
+                text-align: center;
+            }
+            .skill .skill-content .skill-image>img {
+                width: 100%;
+                margin-top: 20px;
+            }
+            .skill .skill-content .skill-image>.skill-card {
+                display: none;
+            }
+            /* events */
+            .events-content {
+                flex-direction: column;
+            }
+            .events-content .events-desc {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .events-content .events-desc .events-box {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .events-content .events-desc .events-box .event-title-location {
+                padding-right: 0;
+            }
+            .events-content .events-image {
+                width: 95%;
+            }
+            .events-content .events-image img {
+                width: 100%;
+            }
+            .events-content .events-box>* {
+                margin-bottom: 20px;
+            }
+            /* news */
+            .news-content>ul.cards {
+                flex-direction: column;
+            }
+            .news-content>ul.cards>li {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .news-content .desc>a {
+                display: block;
+            }
+            /* subscribe */
+            .subscribe-content {
+                flex-direction: column;
+            }
+            .subscribe-content>div {
+                width: 100%;
+                text-align: center;
+            }
+            .subscribe-content .subscribe-form>a {
+                display: block;
+                text-align: center;
+            }
+            .subscribe-content .subscribe-form>input {
+                width: 90%;
+                margin-bottom: 30px;
+            }
+            .subscribe-content .subscribe-form::after {
+                width: 100%;
+                bottom: 65px;
+            }
+            /* footer */
+            .footer {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .footer-content ul.columns {
+                flex-direction: column;
+            }
+            .footer ul.columns>li:nth-child(1) {
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            .footer ul.columns>li:nth-child(2) {
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            .footer ul.columns>li:nth-child(3) {
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            .footer ul.columns>li:nth-child(3)>ul {
+                display: flex;
+            }
+            .footer ul.columns>li:nth-child(4) {
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            .footer ul.columns>li:nth-child(4)>ul.newsletter-form input {
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .footer ul.columns>li:nth-child(4)>ul.newsletter-form>li:last-child a {
+                display: block;
+                text-align: center;
+            }
+            /* footer-bar */
+            .footer-bar {
+                padding-bottom: 10px;
+                padding-top: 20px;
+            }
+            .footer-bar-content {
+                flex-direction: column-reverse;
+            }
+            .footer-bar-content>div {
+                margin-bottom: 10px;
+            }
+        }
